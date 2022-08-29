@@ -1,0 +1,25 @@
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    position: absolute;
+    width: 100vw;
+    color: #fff;
+    z-index: 99;
+    width: 100%;
+    margin: 0px auto;
+    padding: 120px 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+section{
+    background-color: aqua;
+}
